@@ -1,0 +1,41 @@
+{
+  "name": "autemdolor",
+  "version": "1.0.0",
+  "description": "load fetch convert and save local and remote files and images to base64 in js",
+  "exports": "./index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npm i && c8 -r lcov -r html node ./test/CI.js && c8 report"
+  },
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HillaryEbert/autemdolor.git"
+  },
+  "keywords": [
+    "base64",
+    "ipsam",
+    "local",
+    "non",
+    "remote",
+    "image",
+    "nam"
+  ],
+  "author": "CoraOlson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HillaryEbert/autemdolor.git/issues"
+  },
+  "dependencies": {
+    "fetch": "^1.1.0",
+    "node-fetch": "^2.6.1",
+    "strong-type": "^0.1.6"
+  },
+  "devDependencies": {
+    "c8": "^7.6.0",
+    "vanilla-test": "^1.4.5"
+  }
+}
